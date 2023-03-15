@@ -722,14 +722,14 @@ li:hover:after {
 }
 
 
-
+/*********************************************************media*****************************************/
 @media (max-width:768px){
     body{
         font-size: 13px;
     }
     .travel-nav{
         opacity: 1;
-        margin-left: 10%;
+        margin-left: 2%;
     }
     .checkbtn{
         display: block;
@@ -739,8 +739,8 @@ li:hover:after {
     }
     ul{ 
         position: fixed;
-        width: 100%;
-        height: 45vh;
+        width: 83%;
+        height: 50vh;
         background-color: lightblue;
         top: 70px;
         left: -110%;
@@ -758,7 +758,7 @@ li:hover:after {
     }
     
     #check:checked ~ .nav-links{
-        left:-22;
+        left:-5%;
     }
     
     .book-btn{
@@ -805,10 +805,12 @@ li:hover:after {
         margin-left: 10%;
     }
     .search-date {
-        margin-top: 57%;
-        width: 217%;
+        margin-top: 12%;
+        width: 84vw;
         background-color: white;
-        margin-left: 2%;
+        margin-left: 0%;
+        padding: 9%;
+        height: 13vh;
     }
     .search-date-one {
         width: 47vw;
@@ -849,7 +851,7 @@ li:hover:after {
         display: none;
     }
     .our-stories{
-        height: 70%;
+        height: 80vh;
         margin-left: 20%;
     }
     .story-container{
@@ -863,7 +865,7 @@ li:hover:after {
     }
     .story-container h4{
         font-size: larger;
-        margin-left: -79%;
+        margin-left: -90%;
     }
     .story-container p{
         width: 100%;
@@ -874,8 +876,8 @@ li:hover:after {
         top: 19%;
     }
     .adventure-img{
-    height: 23%;
-    margin-top: 34%;
+    height: 50%;
+    margin-top: 45%;
     }
     .achievements{
         margin-left: -130px;
@@ -945,7 +947,7 @@ li:hover:after {
     .destination-head {
         width: 90%;
         font-size: smaller;
-        line-height: 100px;
+        line-height: 6vh;
         margin-left: 20%;
     }
     .destination-cart{
@@ -954,7 +956,7 @@ li:hover:after {
         margin-left: 20%;
     }
     .popular-destinations-container{
-        height: 1250px;
+        height: 162vh;
     }
     .cart-dest{
         width: 100%;
@@ -970,7 +972,7 @@ li:hover:after {
     .top-dest-head{
         line-height: 60px;
         width: 100%;
-        margin-left: 10%;
+        margin-left: 0%;
     }
     .top-dest-head h1{
         font-size: 5vh;
@@ -989,9 +991,9 @@ li:hover:after {
         margin-left: 12px;
     }
     .dest-cart-one{
-        width: 53%;
+        width: 45%;
         flex-direction: row;
-        margin-left: -1%;
+        margin-left: 0%;
     }
     .dest-cart-two {
         height: 55vh;
@@ -999,29 +1001,29 @@ li:hover:after {
     }
     .cart-two-img {
         height: 34vh;
-        width: 108vw;
-        margin-left: 12px;
+        width: 93vw;
+        margin-left: 10px;
         margin-top: 4%;
         padding-left: 0%;
     }
     .cart-three-one {
         height: 30vh;
-        width: 96%;
+        width: 93vw;
         margin-top: 12px;
-        margin-left: 12px;
+        margin-left: 10px;
     }
     .dest-cart-three{
-        width: 113%;
+        width: 96%;
     }
     .cart-three-two {
         margin-left: 12px;
         margin-top: 2%;
         height: 28vh;
-        width: 45vw;
+        width: 35vw;
     }
     .cart-three-three {
         height: 28vh;
-        width: 61.5vw;
+        width: 53.5vw;
         padding-left: 3%;
         margin-top: 2%;
     }
@@ -1037,12 +1039,12 @@ li:hover:after {
     .customer-about {
         height: 360px;
         width: 100%;
-        margin-top: 15%;
-        margin-left: -20%;
+        margin-top: 10%;
+        margin-left: -15%;
     }
     .customer-container-about {
-        width: 48%;
-        height: 45vh;
+        width: 65%;
+        height: 63vh;
     }
     .customer-about h1 {
         font-size: 29px;
@@ -1050,7 +1052,7 @@ li:hover:after {
     }
     .customer-container{
         height: 70vh;
-        margin-left: 15%;
+        margin-left: 10%;
     }
     .customer-comments {
         padding: 6px;
@@ -1059,7 +1061,11 @@ li:hover:after {
         margin-left: -1%;
     }
     .customer-container-img{
-        height: 45vh;
+        height: 20vh;
+        width: 45%;
+    height: 534px;
+    padding-left: 0%;
+    padding-top: 7%;
     }
     /******signup*********/
     .signup{
@@ -1067,9 +1073,9 @@ li:hover:after {
         height: 208px;
     }
     .signup-container{
-        height: 27vh;
-        width: 100%;
-        margin-left: 10%;
+        height: 35vh;
+        width: 99%;
+        margin-left: 0%;
     }
     .signup p{
         line-height: 18px;
@@ -1106,7 +1112,7 @@ li:hover:after {
         width: 70px;
     }
     .crp{
-        margin-left: 10%;
+        margin-left: -2%;
     }
 
 }
