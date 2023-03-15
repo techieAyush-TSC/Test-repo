@@ -729,7 +729,7 @@ li:hover:after {
     }
     .travel-nav{
         opacity: 1;
-        margin-left: 2%;
+        margin-left: 0%;
     }
     .checkbtn{
         display: block;
@@ -739,8 +739,8 @@ li:hover:after {
     }
     ul{ 
         position: fixed;
-        width: 83%;
-        height: 50vh;
+        width: 94%;
+        height: 53vh;
         background-color: lightblue;
         top: 70px;
         left: -110%;
@@ -827,7 +827,7 @@ li:hover:after {
         display: none;
     }
     .categories-carts{
-        margin-left: 20%;
+        margin-left: 7%;
     }
     .about-categories {
         width: 100%;
@@ -953,10 +953,10 @@ li:hover:after {
     .destination-cart{
         flex-direction: column;
         justify-content: flex-start;
-        margin-left: 20%;
+        margin-left: 5%;
     }
     .popular-destinations-container{
-        height: 162vh;
+        height: 185vh;
     }
     .cart-dest{
         width: 100%;
@@ -970,7 +970,7 @@ li:hover:after {
         height: 160vh;
     }
     .top-dest-head{
-        line-height: 60px;
+        line-height: 53px;
         width: 100%;
         margin-left: 0%;
     }
@@ -978,7 +978,7 @@ li:hover:after {
         font-size: 5vh;
     }
     .top-dest-btn{
-        width: 17%;
+        width: 24%;
         height: 35px;
     }
     .top-dest-head p{
@@ -1101,7 +1101,8 @@ li:hover:after {
     }
     /*********footer*************/
     .footer{
-        height: 480px;
+        height: 90vh;
+        width: 90vw;
         flex-direction: column;
         margin-left: 0%;
     }
@@ -1112,7 +1113,19 @@ li:hover:after {
         width: 70px;
     }
     .crp{
-        margin-left: -2%;
+        margin-left: 4%;
+    }
+    .about-trafalgar {
+        height: 40px;
+        width: 20px;
+        margin-left: 26%;
+        margin-top: 25%;
+        color: black;
+        line-height: 20px;
+        display: flex;
+    }
+    .f-footer h4 {
+        line-height: 20px;
     }
 
 }
