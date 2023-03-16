@@ -902,7 +902,7 @@ li:hover:after {
         margin-left: -130px;
         height: auto;
         width: auto;
-        margin-top: 25%;
+        margin-top: 52%;
     }
     .achievements h2{
         font-size: large;
@@ -971,6 +971,9 @@ li:hover:after {
         margin-left: 0%;
         display: flex;
     justify-content: center;
+    }
+    .destination-img{
+        height: 30vh;
     }
     .destination-cart{
         flex-direction: column;
