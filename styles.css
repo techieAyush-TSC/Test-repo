@@ -75,11 +75,13 @@ li:hover:after {
 }
 /********discover-place********/
 .discover-place{
-    height: 89%;
+    height: fit-content;
     display: flex;
+    margin-bottom: 8vh;
+    justify-content: center;
 }
 .empty-discover{
-    width: 6%;
+    width: 0%;
 }
 .discover-container{
     width:32%;
@@ -155,7 +157,7 @@ li:hover:after {
     background-color: white;
     border-radius: 20px;
     width: 13%;
-    left: 49%;
+    left: 46%;
     top:50%;
     z-index: -1;
 }
@@ -170,8 +172,8 @@ li:hover:after {
     height: 50px;
     width: 100px;
     position: relative;
-    top: 72%;
-    left: 12%;
+    top: 56vh;
+    left: 15%;
 }
 .small-img-two{
     position: absolute;
@@ -188,9 +190,11 @@ li:hover:after {
 
 }
 .categories{
-    height: 40%;
+    height: fit-content;
     width: 100%;
     display: flex;
+    margin-bottom: 2%;
+    justify-content: center;
 }
 .about-categories{
     width:26%;
@@ -214,14 +218,14 @@ li:hover:after {
 }
 .categories-carts-container{
     width: 100%;
-    height: 270px;
-    display: flex;
+    height: fit-content;
 }
 .categories-carts{
-    width: 90%;
     height: auto;
     display: flex;
-    flex-wrap: wrap;
+    width: auto;
+    margin-left: 5vw;
+    margin-right: 5vw;
     justify-content: space-around;
 }
 .cart{
@@ -288,7 +292,8 @@ li:hover:after {
     color: orangered;
 }
 .achievements p{
-    font-size: larger;
+    font-size: large;
+    margin-left: 9%;
 }
 .ach-one ,.ach-two ,.ach-three{
     text-align: center;
@@ -327,17 +332,19 @@ li:hover:after {
 }
 /*******popular destinations***********/
 .popular-destinations-container{
-    height: 570px;
+    height: auto;
     width: 100%;
+    margin-bottom: 10vh;
 }
 .empty-space-dest{
-    width:51%;
+    width:52%;
 }
 .next-categories{
-    margin-left: -4%;
+    margin-left: -1%;
 }
 .destinations{
     display: flex;
+    justify-content: center;
 }
 .destination-head{
     width: 30%;
@@ -345,15 +352,15 @@ li:hover:after {
     margin-left: 3%;
 }
 .destination-cart-container{
-    height: 60vh;
     display: flex;
     
 }
 .destination-cart{
-    width:90%;
+    width:92%;
     height: 100%;
     display: flex;
     justify-content: space-around;
+    margin-left: 5%;
 }
 .cart-dest{
     border: 3px solid white;
@@ -448,7 +455,8 @@ li:hover:after {
 }
 .top-dest-cart{
     display: flex;
-    height: 400px;
+    height: auto;
+    justify-content: center;
 }
 .dest-cart-one{
     width:22%;
@@ -587,14 +595,14 @@ li:hover:after {
     display: flex;
 }
 .customer-container-img{
-    width: 45%;
-    height: 534px;
-    padding-left: 10%;
+    width: 40%;
+    height: auto;
+    padding-left: 5%;
     padding-top: 7%;
 }
 .customer-img{
-    width: 20vw;
-    height: 80%;
+    width: 24vw;
+    height: 78vh;
     padding-left: 10%;
 }
 .camera-man{
@@ -605,19 +613,19 @@ li:hover:after {
 }
 .customer-container-about{
     width: 45%;
-    height: 519px;
+    height: auto;
 }
 .customer-about{
-    height: 340px;
-    width:70%;
-    margin-top: 15%;
+    width:46vw;
+    margin-top: 14%;
 }
 .customer-about h1{
-    font-size: 50px;
+    font-size: 14vh;
+    line-height: 16vh;
 }
 .customer-comments{
     padding: 30px;
-    height: 55%;
+    height: auto;
     background-color: white;
     border-radius: 20px;
     margin-top: 5%;
@@ -628,20 +636,19 @@ li:hover:after {
 }
 /***********signupcontainer************/
 .signup-container{
-    height:400px;
-    padding: 4%;
+    height:auto;
+    padding: 5%;
     display: flex;
-    justify-content: center;
 }
 .signup{
-    width:80%;
-    height: 300px;
+    width:100%;
+    height: 60vh;
     background-color: #ffd482;
     text-align: center;
     border-radius: 20px;
 }
 .signup h1{
-    line-height: 100px;
+    line-height: 116px;
 }
 .signup-para{
     
@@ -677,7 +684,6 @@ li:hover:after {
 .footer{
     height: 250px;
     display: flex;
-    margin-left: 8%;
 }
 .footer-dot{
     margin-top: 16%;
@@ -719,11 +725,14 @@ li:hover:after {
 .crp{
     display: flex;
     margin-top: 2%;
+    margin-left: 11vw;
 }
 
 
 /*********************************************************media*****************************************/
 @media (max-width:768px){
+   
+    
     body{
         font-size: 13px;
     }
@@ -773,10 +782,10 @@ li:hover:after {
         height: 35px;
     }
     .man-zindex-container{
-        top:34%;
-        width: 12%;
+        top:25%;
+        width: 15%;
         height: 10%;
-        left: 65%;
+        left: 61%;
     }
     .man-passport-container{
         height: 20vh;
@@ -801,7 +810,7 @@ li:hover:after {
         margin-left: 7%;
     }
     .discover-place{
-        height: 58%;
+        height: auto;
         margin-left: 10%;
     }
     .search-date {
@@ -827,14 +836,15 @@ li:hover:after {
         display: none;
     }
     .categories-carts{
-        margin-left: 7%;
+        padding: 10%;
+        flex-wrap: wrap;
     }
     .about-categories {
         width: 100%;
         height: 85%;
         text-align: center;
-        margin-left: 17%;
-        margin-right: 2%;
+        margin-left: 0vh;
+    margin-right: 0vh;
     }
     .about-categories h1 {
         font-size: 6vh;
@@ -844,15 +854,19 @@ li:hover:after {
         height: 9%;
     }
     .categories-containers{
-        height: 1800px;
+        height: fit-content;
+        [padding: 1%;]
+        display: flex;
+        flex-direction: column;
     }
     /*********our stories**********/
     .empty-story .empty-discover2{
         display: none;
     }
     .our-stories{
-        height: 80vh;
+        height: auto;
         margin-left: 20%;
+        margin-bottom: 10vh;
     }
     .story-container{
         width: 50%;
@@ -892,8 +906,8 @@ li:hover:after {
     }
     .ach-one, .ach-two, .ach-three {
         margin-left: 4%;
-        height: 17vh;
-        width: 23vw;
+        height: auto;
+        width: auto;
     }
     /***********top-destination**************/
     .name-dest{
@@ -967,10 +981,10 @@ li:hover:after {
         display: none;
     }
     .top-destinations{  
-        height: 160vh;
+        height: auto;
     }
     .top-dest-head{
-        line-height: 53px;
+        line-height: 45px;
         width: 100%;
         margin-left: 0%;
     }
@@ -996,7 +1010,7 @@ li:hover:after {
         margin-left: 0%;
     }
     .dest-cart-two {
-        height: 55vh;
+        height: auto;
         width: 90%;
     }
     .cart-two-img {
@@ -1049,9 +1063,10 @@ li:hover:after {
     .customer-about h1 {
         font-size: 29px;
         width: 100%;
+        line-height: 6vh;
     }
     .customer-container{
-        height: 70vh;
+        height: auto;
         margin-left: 10%;
     }
     .customer-comments {
@@ -1073,7 +1088,7 @@ li:hover:after {
         height: 208px;
     }
     .signup-container{
-        height: 35vh;
+        height: auto;
         width: 99%;
         margin-left: 0%;
     }
@@ -1101,7 +1116,7 @@ li:hover:after {
     }
     /*********footer*************/
     .footer{
-        height: 90vh;
+        height: auto;
         width: 90vw;
         flex-direction: column;
         margin-left: 0%;
