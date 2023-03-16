@@ -782,10 +782,10 @@ li:hover:after {
         height: 35px;
     }
     .man-zindex-container{
-        top:25%;
-        width: 15%;
-        height: 10%;
-        left: 61%;
+        top:29%;
+        width: 24vw;
+        height: 13vh;    
+        left: 55%;
     }
     .man-passport-container{
         height: 20vh;
@@ -811,11 +811,11 @@ li:hover:after {
     }
     .discover-place{
         height: auto;
-        margin-left: 10%;
+        margin-left: 2%;
     }
     .search-date {
-        margin-top: 12%;
-        width: 84vw;
+        margin-top: 25%;
+        width: 91vw;
         background-color: white;
         margin-left: 0%;
         padding: 9%;
@@ -863,10 +863,14 @@ li:hover:after {
     .empty-story .empty-discover2{
         display: none;
     }
+    .empty-story{
+        width:0%
+    }
     .our-stories{
         height: auto;
-        margin-left: 20%;
+        margin-left: 0%;
         margin-bottom: 10vh;
+        justify-content: center;
     }
     .story-container{
         width: 50%;
@@ -879,7 +883,7 @@ li:hover:after {
     }
     .story-container h4{
         font-size: larger;
-        margin-left: -90%;
+        margin-left: -72%;
     }
     .story-container p{
         width: 100%;
@@ -890,13 +894,14 @@ li:hover:after {
         top: 19%;
     }
     .adventure-img{
-    height: 50%;
-    margin-top: 45%;
+    height: auto;
+    margin-top: 17%;
+    margin-left: -5%;
     }
     .achievements{
         margin-left: -130px;
-        height: 120px;
-        width: 150%;
+        height: auto;
+        width: auto;
     }
     .achievements h2{
         font-size: large;
@@ -962,7 +967,9 @@ li:hover:after {
         width: 90%;
         font-size: smaller;
         line-height: 6vh;
-        margin-left: 20%;
+        margin-left: 0%;
+        display: flex;
+    justify-content: center;
     }
     .destination-cart{
         flex-direction: column;
@@ -992,7 +999,7 @@ li:hover:after {
         font-size: 5vh;
     }
     .top-dest-btn{
-        width: 24%;
+        width: 23%;
         height: 35px;
     }
     .top-dest-head p{
@@ -1076,9 +1083,8 @@ li:hover:after {
         margin-left: -1%;
     }
     .customer-container-img{
-        height: 20vh;
+        height: auto;
         width: 45%;
-    height: 534px;
     padding-left: 0%;
     padding-top: 7%;
     }
